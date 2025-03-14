@@ -17,11 +17,19 @@ export default {
     },
 
     async getAll(){
-        const respones = await fetch(baseUrl);
-        const result = await respones.json();
+        const respone = await fetch(baseUrl);
+        const result = await respone.json();
 
         const games = Object.values(result);
         return games;
+    },
+
+    async getOne(gameId){
+        const response = await fetch(`${baseUrl}/${gameId}`);
+        const result = await response.json();
+
+        return result;
+
     }
 
 
