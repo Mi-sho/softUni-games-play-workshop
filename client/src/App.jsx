@@ -7,10 +7,11 @@ import CreateGame from "./components/create-page/CreateGame";
 import Login from "./components/login/Login";
 import Register from "./components/register/Register";
 
-import "./App.css";
+
 
 function App() {
   return (
+
     <div id="box">
       <Header />
 
