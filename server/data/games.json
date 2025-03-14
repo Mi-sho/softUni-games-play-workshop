@@ -1,16 +1,26 @@
 {
-    "businfo": {
-        "1287": {
-            "buses": {
-                "76": 15,
-                "84": 10,
-                "204": 10,
-                "213": 18,
-                "280": 9,
-                "306": 31,
-                "604": 11
-            },
-            "name": "Orlov Most sq."
-        }
+   "3af60c34-e7b0-4162-ab89-854020bd7ce7": {
+        "title": "Heroes of Might and Magic III: In the Wake of Gods",
+        "category": "Strategy",
+        "maxLevel": "30",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/ru/b/ba/Heroes_of_Might_and_Magic_3%C2%BD_In_the_Wake_of_Gods.jpg",
+        "summary": "Heroes of Might and Magic III: The Restoration of Erathia (commonly referred to as Heroes of Might & Magic 3, or Heroes 3, or abbreviated HoMM 3) is a turn-based strategy game developed by Jon Van Caneghem through New World Computing originally released for Microsoft Windows by The 3DO Company in 1999. Its ports to several computer and console systems followed in 1999–2000. It is the third installment of the Heroes of Might and Magic series.",
+        "_id": "3af60c34-e7b0-4162-ab89-854020bd7ce7"
+    },
+    "bb1ea1e2-cbd2-478f-87b1-109390940760": {
+        "title": "Dishonored 2",
+        "category": "Action",
+        "maxLevel": "99",
+        "imageUrl": "https://m.media-amazon.com/images/I/81ZMgrRaEqL._AC_UF1000,1000_QL80_.jpg",
+        "summary": "\nMarvel's Spider-Man: Miles Morales\n2020\n\nDishonored 2\n2016\nDishonored 2\nDishonored 2 is a 2016 first person action-adventure game developed by Arkane Lyon and published by Bethesda Softworks for PlayStation 4, Windows, and Xbox One. It is the sequel to 2012's Dishonored",
+        "_id": "bb1ea1e2-cbd2-478f-87b1-109390940760"
+    },
+    "226f8acc-3b9f-4b22-ab71-40e68345eb61": {
+        "title": "Diablo IV",
+        "category": "Online PVP",
+        "maxLevel": "90",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYGxO-FVWWMD0_HJL3WZFnNvmLeWAWOzW-SUqyVGXHvRA7SsjZBNZ9BGcGuP3WrsWtgHA&usqp=CAU",
+        "summary": "Diablo IV is a 2023 online-only action role-playing dungeon crawling game developed and published by Blizzard Entertainment. It is the fourth main installment in the Diablo series",
+        "_id": "226f8acc-3b9f-4b22-ab71-40e68345eb61"
     }
 }
