@@ -7,14 +7,13 @@ import gameService from "../../services/gameService";
 export default function DetailsPage() {
     const {gameId} = useParams();
     
-    
     const [game, setGame] = useState([]);
 
     useEffect(() => {
         gameService.getOne(gameId)
         .then(setGame)
 
-    }, [])
+    }, [gameId])
 
 
     return(
