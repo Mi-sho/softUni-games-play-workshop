@@ -40,4 +40,14 @@ export default {
     const result = await response.json();
     return result;
   },
+
+  async delete(gameId){
+    const response = await fetch(`${baseUrl}/${gameId}`,{
+        method: 'DELETE'
+    });
+
+    const res = await response.json();
+    return res;
+
+  }
 };
