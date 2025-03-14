@@ -14,5 +14,17 @@ export default {
 
         return res;
 
+    },
+
+    async getAll(){
+        const respones = await fetch(baseUrl);
+        const result = await respones.json();
+
+        const games = Object.values(result);
+        return games;
     }
+
+
+
+
 }

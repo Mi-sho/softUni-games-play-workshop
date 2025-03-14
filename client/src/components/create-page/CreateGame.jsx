@@ -6,16 +6,17 @@ import gameService from "../../services/gameService";
 export default function CreateGame(){
     const navigate = useNavigate();
 
-const  createGameFormHandler = async (formData) => {
+    const createGameFormHandler = async (formData) => {
+      const gameData = Object.fromEntries(formData);
+    try{
 
-    const gameData = Object.fromEntries(formData)
+        const result = await gameService.create(gameData);
+    }catch(err){
+        alert(err.message);
+    }
 
-    const result = await gameService.create(gameData);    
-
-
-    navigate('/games')
-}
-
+      navigate("/games");
+    };
 
     return(
 <section id="create-page" className="auth">
